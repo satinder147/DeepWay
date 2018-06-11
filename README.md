@@ -27,3 +27,35 @@ The next problem was how can I tell the blind people in which direction to move 
 So I connected my python program to an Arduino. I connected the servo motors to arduino and fixed the servo motors to the sides of an spectacle.  Using Serial communication I can tell the arduino which servo motor to move which would then press to one side of the blind person's head and would indicate him in which direction to move.<br> This is how the modified spectacles looked like</br>
 ![imag0397](https://user-images.githubusercontent.com/24778913/41227853-ec3f52fa-6d93-11e8-9760-6dcbd931fd4f.jpg)
 
+## Other Features
+#
+<br>Detection of stop signs.</br> This is done using opencv. I load in a pretrained stop sign haar cascade and then identify the location of the stop sign so that the device can steer the blind person.
+#
+<br>Person and Vehicle Detection</br>
+This is achieved by using the yolo algorithm.I did not implement this, I am just using the object detected by yolo to make the person aware of his surrounding.
+
+## Requirements
+0. Python 3.x
+1. <a href="https://tensorflow.org">Tensorflow 1.5</a>
+2. <a href="https://keras.io">Keras</a>
+3. OpenCV 3.4
+4. h5py
+5. pyttsx3
+6. A good grasp over the above 5 topics along with neural networks. Refer to the internet if you have problems with those. I myself am just a begineer in those.
+7. A good CPU (preferably with a GPU).
+8. Time
+9. datetime
+10. Patience.... A lot of it.
+
+## Installing the requirements
+1. Start your terminal of cmd depending on your os.
+  2. If you have a NVidia GPU then make sure you have the prerequisites for Tensorflow GPU installation (Refer to official site). Then use this commmand
+
+    pip install -r requirements_gpu.txt
+
+  3. In case you do not have a GPU then use this command
+
+    pip install -r requirements_cpu.txt
+
+
+
