@@ -28,10 +28,11 @@ So I connected my python program to an Arduino. I connected the servo motors to 
 ![imag0397](https://user-images.githubusercontent.com/24778913/41227853-ec3f52fa-6d93-11e8-9760-6dcbd931fd4f.jpg)
 
 ## Other Features
-#
-#<br>Detection of stop signs.</br> This is done using opencv. I load in a pretrained stop sign haar cascade and then identify the location of the stop sign so that the device can steer the blind person.
-#
-#<br>Person and Vehicle Detection</br>
+
+# Detection of stop signs. 
+This is done using opencv. I load in a pretrained stop sign haar cascade and then identify the location of the stop sign so that the device can steer the blind person.
+
+# Person and Vehicle Detection
 This is achieved by using the yolo algorithm.I did not implement this, I am just using the object detected by yolo to make the person aware of his surrounding.
 
 ## Requirements
