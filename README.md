@@ -41,7 +41,7 @@ This is achieved by using the yolo algorithm.I did not implement this, I am just
 3. OpenCV 3.4
 4. h5py
 5. pyttsx3
-6. A good grasp over the above 5 topics along with neural networks. Refer to the internet if you have problems with those. I myself am just a begineer in those.
+6. A good grasp over convolutional neural networks. For online resources refer to standford cs231n, deeplearning.ai on coursera
 7. A good CPU (preferably with a GPU).
 8. Time
 9. datetime
