@@ -32,8 +32,8 @@ So I connected my python program to an Arduino. I connected the servo motors to 
 # Detection of stop signs. 
 This is done using opencv. I load in a pretrained stop sign haar cascade and then identify the location of the stop sign so that the device can steer the blind person.
 
-# Person and Vehicle Detection
-This is achieved by using the yolo algorithm.I did not implement this, I am just using the object detected by yolo to make the person aware of his surrounding.
+# Face Recognition
+This is achieved using a siamese network. This network is trained so it outputs a unique 128 dimensional vector for a given face. Then we can use euclidean distance to compare this metric with the metric of the recognised faces(which are already stored) or we can train a neural network which will take input the 128 dimensional vector and can output which face is this. I did not train this model. I download the <a href="https://github.com/nyoki-mtl/keras-facenet"> already trained keras model from here</a>
 
 ## Requirements
 0. Python 3.x
@@ -64,9 +64,10 @@ To train your own classifier you need to gather data for all three type(.i.e ima
 ## Running the complete system
 To run the complete system 
 <br>1)Just clone the entire repo</br>
-<br>2)Download the pretrained model and paste it in the deepway-master directory</br>
-<br>3)Change the COM port name in blind_runner.py</br>
-<br>4)run blind_runner.py(make sure to connect the arduino before running)</br>
+<br>2)Upload Arduino_blind.ino to your arduino which is connected with your two servos
+<br>3)Download the pretrained model and paste it in the deepway-master directory</br>
+<br>4)Change the COM port name in blind_runner.py</br>
+<br>5)run blind_runner.py(make sure to connect the arduino before running)</br>
 
 ## Have Questions ??
 You can contact me on my facebook page <a href="https://www.facebook.com/reactorscience/">"reactor science"</a>
