@@ -63,11 +63,11 @@ To train your own classifier you need to gather data for all three type(.i.e ima
 
 ## Running the complete system
 To run the complete system 
-<br>1)Just clone the entire repo</br>
+<br>1)Just clone the entire repo
 <br>2)Upload Arduino_blind.ino to your arduino which is connected with your two servos
-<br>3)Download the pretrained model and paste it in the deepway-master directory</br>
-<br>4)Change the COM port name in blind_runner.py</br>
-<br>5)run blind_runner.py(make sure to connect the arduino before running)</br>
+<br>3)Download the pretrained model and paste it in the deepway-master directory
+<br>4)Change the COM port name in blind_runner.py
+<br>5)run blind_runner.py(make sure to connect the arduino before running)
 
 ## Have Questions ??
 You can contact me on my facebook page <a href="https://www.facebook.com/reactorscience/">"reactor science"</a>
