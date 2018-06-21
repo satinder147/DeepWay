@@ -1,5 +1,5 @@
 # DeepWay
-This project is an aid to the blind. Till date there has been no technological advancement in the way the blind navigate. So I have used deep learning particularly convolutional neural networks so that they can navigate through the streets. 
+This project is an aid to the blind. Till date there has been no technological advancement in the way the blind navigate. So I have used deep learning particularly convolutional neural networks so that they can navigate through the streets. Watch the <a href="https://www.youtube.com/channel/UCVu2Ie45Bh89lpdg7ezdMyg?view_as=subscriber"> video </a>
 # My Approach 
 ## Collecting Training Data
 My project is an implementation of CNN's, and we all know that they require a large amount of training data. So the first obstruction in my way was a correclty labeled dataset of images. So I went around my college and recorded a lot of videos(of all types of roads and also offroads).Then I wrote a basic python script to collect save images from the video(I saved 1 image out of every 5, because the consecutive frame are almost identical). I collected almost 10000 such images almost 3300 for each class(i.e. left right and center). 
@@ -57,6 +57,20 @@ This is achieved by using the yolo algorithm.I did not implement this, I am just
   3. In case you do not have a GPU then use this command
 
     pip install -r requirements_cpu.txt
+
+## Train your own classifier
+To train your own classifier you need to gather data for all three type(.i.e images from left side of road, right side, and center region of the road) and then run model_trainer.py(you need to change the directories of images in model_trainer.py first).I used around 10000 images, if you want to have a look at the training data you can go here or you can download the pretrained model from 
+
+## Running the complete system
+To run the complete system 
+1)Just clone the entire repo, 
+2)Download the pretrained model and paste it in the deepway-master directory
+3)Change the COM port name in blind_runner.py
+4)run blind_runner.py(make sure to connect the arduino before running)
+
+## Have Questions ??
+You can contact me on my facebook page <a href="https://www.facebook.com/reactorscience/">"reactor science"</a>
+
 
 
 
