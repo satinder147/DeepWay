@@ -59,7 +59,7 @@ This is achieved by using the yolo algorithm.I did not implement this, I am just
     pip install -r requirements_cpu.txt
 
 ## Train your own classifier
-To train your own classifier you need to gather data for all three type(.i.e images from left side of road, right side, and center region of the road) and then run model_trainer.py(you need to change the directories of images in model_trainer.py first).I used around 10000 images, if you want to have a look at the training data you can go here or you can download the pretrained model from 
+To train your own classifier you need to gather data for all three type(.i.e images from left side of road, right side, and center region of the road) and then run model_trainer.py(you need to change the directories of images in model_trainer.py first).I used around 10000 images, if you want to have a look at the training data you can go here or you can download the <a href="https://drive.google.com/drive/folders/1AN712GckTDCcFdISsulOSMb2zJwINwmh?usp=sharing">pretrained model</a>
 
 ## Running the complete system
 To run the complete system 
