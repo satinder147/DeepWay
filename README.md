@@ -63,10 +63,10 @@ To train your own classifier you need to gather data for all three type(.i.e ima
 
 ## Running the complete system
 To run the complete system 
-1)Just clone the entire repo, 
-2)Download the pretrained model and paste it in the deepway-master directory
-3)Change the COM port name in blind_runner.py
-4)run blind_runner.py(make sure to connect the arduino before running)
+<br>1)Just clone the entire repo</br>
+<br>2)Download the pretrained model and paste it in the deepway-master directory</br>
+<br>3)Change the COM port name in blind_runner.py</br>
+<br>4)run blind_runner.py(make sure to connect the arduino before running)</br>
 
 ## Have Questions ??
 You can contact me on my facebook page <a href="https://www.facebook.com/reactorscience/">"reactor science"</a>
