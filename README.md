@@ -32,8 +32,8 @@ So I connected my python program to an Arduino. I connected the servo motors to 
 # Detection of stop signs. 
 This is done using opencv. I load in a pretrained stop sign haar cascade and then identify the location of the stop sign so that the device can steer the blind person.
 
-# Face Recognition
-This is achieved using a siamese network. This network is trained so it outputs a unique 128 dimensional vector for a given face. Then we can use euclidean distance to compare this metric with the metric of the recognised faces(which are already stored) or we can train a neural network which will take input the 128 dimensional vector and can output which face is this. I did not train this model. I download the <a href="https://github.com/nyoki-mtl/keras-facenet"> already trained keras model from here</a>
+# Face Detection
+This is achieved using Dlibs face detector.(trying to implement face recognition)
 
 ## Requirements
 0. Python 3.x
