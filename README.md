@@ -26,7 +26,8 @@ The architecture of the best model was:
 The next problem was how can I tell the blind people in which direction to move .
 So I connected my python program to an Arduino. I connected the servo motors to arduino and fixed the servo motors to the sides of an spectacle.  Using Serial communication I can tell the arduino which servo motor to move which would then press to one side of the blind person's head and would indicate him in which direction to move.<br> This is how the modified spectacles looked like</br>
 ![imag0397](https://user-images.githubusercontent.com/24778913/41227853-ec3f52fa-6d93-11e8-9760-6dcbd931fd4f.jpg)
-
+<br>
+![screenshot 252](https://user-images.githubusercontent.com/24778913/41864405-8a17f052-78c7-11e8-9cbf-c1d20847a074.png)
 ## Other Features
 
 # Detection of stop signs. ##
@@ -43,10 +44,10 @@ This is achieved using Dlibs face detector.(trying to implement face recognition
 0. Python 3.x
 1. <a href="https://tensorflow.org">Tensorflow 1.5</a>
 2. <a href="https://keras.io">Keras</a>
-3. OpenCV 3.4
-4. h5py
+3. OpenCV 3.4(for loading,resizing images)
+4. h5py(for saving trained model)
 5. pyttsx3
-6. A good grasp over convolutional neural networks. For online resources refer to standford cs231n, deeplearning.ai on coursera
+6. A good grasp over convolutional neural networks. For online resources refer to standford cs231n, deeplearning.ai on coursera or cs231n by standford university
 7. A good CPU (preferably with a GPU).
 8. Time
 9. datetime
@@ -64,6 +65,11 @@ This is achieved using Dlibs face detector.(trying to implement face recognition
 
 ## Train your own classifier
 To train your own classifier you need to gather data for all three type(.i.e images from left side of road, right side, and center region of the road) and then run model_trainer.py(you need to change the directories of images in model_trainer.py first).I used around 10000 images, if you want to have a look at the training data you can go <a href="https://drive.google.com/drive/folders/1RVr7L4O9TFomO4gHv4XXTaAKZffk_95P?usp=sharing">here</a> or you can download the <a href="https://drive.google.com/drive/folders/1AN712GckTDCcFdISsulOSMb2zJwINwmh?usp=sharing">pretrained model</a>
+It took me about 30 minutes to train each network.<br>
+## My laptop Specifiactions
+1) intel core i3<br>
+2)4gb ram<br>
+3)nvidia 930m graphics card
 
 ## Running the complete system
 To run the complete system 
@@ -73,6 +79,8 @@ To run the complete system
 <br>4)Change the COM port name in blind_runner.py
 <br>5)run blind_runner.py(make sure to connect the arduino before running)
 
+## Liked it
+Tell me if you liked it by giving a star. Also check out my other repositories, I always make cool stuff. I even have a youtube channel "reactor science" where I post all my work.
 ## Have Questions ??
 You can contact me on my facebook page <a href="https://www.facebook.com/reactorscience/">"reactor science"</a>
 
