@@ -29,12 +29,16 @@ So I connected my python program to an Arduino. I connected the servo motors to 
 
 ## Other Features
 
-# Detection of stop signs. 
+# Detection of stop signs. ##
 This is done using opencv. I load in a pretrained stop sign haar cascade and then identify the location of the stop sign so that the device can steer the blind person.
-
+##
+![screenshot 250](https://user-images.githubusercontent.com/24778913/41857100-5252bbd8-78b4-11e8-8639-db7bf9359a58.png)
+##
 # Face Detection
 This is achieved using Dlibs face detector.(trying to implement face recognition)
-
+##
+![screenshot 249](https://user-images.githubusercontent.com/24778913/41856995-0a62bc06-78b4-11e8-812b-38d02cdfca1d.png)
+##
 ## Requirements
 0. Python 3.x
 1. <a href="https://tensorflow.org">Tensorflow 1.5</a>
