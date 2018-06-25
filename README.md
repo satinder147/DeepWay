@@ -3,11 +3,11 @@ This project is an aid to the blind. Till date there has been no technological a
 # My Approach 
 ## Collecting Training Data
 My project is an implementation of CNN's, and we all know that they require a large amount of training data. So the first obstruction in my way was a correclty labeled dataset of images. So I went around my college and recorded a lot of videos(of all types of roads and also offroads).Then I wrote a basic python script to  save images from the video(I saved 1 image out of every 5 frames, because the consecutive frame are almost identical). I collected almost 10000 such images almost 3300 for each class(i.e. left right and center). 
-<br>Left image:</br>
+<br>Left image:
 ![274](https://user-images.githubusercontent.com/24778913/41227028-10cf6888-6d91-11e8-805a-bef4814ed1c1.jpg)
-<br>Right Image:</br>
+<br>Right Image:
 ![11](https://user-images.githubusercontent.com/24778913/41227057-2e4b95bc-6d91-11e8-83ff-4744bcf49382.jpg)
-<br>Center Image:</br>
+<br>Center Image:
 ![146](https://user-images.githubusercontent.com/24778913/41227081-42005b88-6d91-11e8-8de5-6ee415d8f617.jpg)
 
 
