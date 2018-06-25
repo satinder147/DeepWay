@@ -2,7 +2,7 @@
 This project is an aid to the blind. Till date there has been no technological advancement in the way the blind navigate. So I have used deep learning particularly convolutional neural networks so that they can navigate through the streets. Watch the <a href="https://www.youtube.com/channel/UCVu2Ie45Bh89lpdg7ezdMyg?view_as=subscriber"> video </a>
 # My Approach 
 ## Collecting Training Data
-My project is an implementation of CNN's, and we all know that they require a large amount of training data. So the first obstruction in my way was a correclty labeled dataset of images. So I went around my college and recorded a lot of videos(of all types of roads and also offroads).Then I wrote a basic python script to collect save images from the video(I saved 1 image out of every 5, because the consecutive frame are almost identical). I collected almost 10000 such images almost 3300 for each class(i.e. left right and center). 
+My project is an implementation of CNN's, and we all know that they require a large amount of training data. So the first obstruction in my way was a correclty labeled dataset of images. So I went around my college and recorded a lot of videos(of all types of roads and also offroads).Then I wrote a basic python script to  save images from the video(I saved 1 image out of every 5 frames, because the consecutive frame are almost identical). I collected almost 10000 such images almost 3300 for each class(i.e. left right and center). 
 <br>Left image:</br>
 ![274](https://user-images.githubusercontent.com/24778913/41227028-10cf6888-6d91-11e8-805a-bef4814ed1c1.jpg)
 <br>Right Image:</br>
@@ -14,7 +14,7 @@ My project is an implementation of CNN's, and we all know that they require a la
 
 
 ## Training the Model
-I made a collection of CNN architectures and trained the model. Then I evaluated the performance of all the models and chose the one with the best accuracy. I got a training accuracy of about 97%
+I made a collection of CNN architectures and trained the model. Then I evaluated the performance of all the models and chose the one with the best accuracy. I got a training accuracy of about 97%. I got roughly same accuracy for all the trained model but I realized that the model in which implemented regularization performed better on the test set
 The architecture of the best model was:
 
 
@@ -68,8 +68,8 @@ To train your own classifier you need to gather data for all three type(.i.e ima
 It took me about 30 minutes to train each network.<br>
 ## My laptop Specifiactions
 1) intel core i3<br>
-2)4gb ram<br>
-3)nvidia 930m graphics card
+2) 4gb ram<br>
+3) nvidia 930m graphics card
 
 ## Running the complete system
 To run the complete system 
