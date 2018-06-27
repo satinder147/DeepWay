@@ -64,7 +64,7 @@ This is achieved using Dlibs face detector.(trying to implement face recognition
     pip install -r requirements_cpu.txt
 
 ## Train your own classifier
-To train your own classifier you need to gather data for all three type(.i.e images from left side of road, right side, and center region of the road) and then run model_trainer.py(you need to change the directories of images in model_trainer.py first).I used around 10000 images, if you want to have a look at the training data you can go <a href="https://drive.google.com/drive/folders/1RVr7L4O9TFomO4gHv4XXTaAKZffk_95P?usp=sharing">here</a> or you can download the <a href="https://drive.google.com/drive/folders/1AN712GckTDCcFdISsulOSMb2zJwINwmh?usp=sharing">pretrained model</a>
+To train your own classifier you need to gather data for all three type(.i.e images from left side of road, right side, and center region of the road) and then run model_trainer.py(you need to change the directories of images in model_trainer.py first).I used around 10000 images.
 It took me about 30 minutes to train each network.<br>
 ## My laptop Specifiactions
 1) intel core i3<br>
