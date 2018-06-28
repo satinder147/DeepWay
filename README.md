@@ -15,12 +15,7 @@ My project is an implementation of CNN's, and we all know that they require a la
 
 ## Training the Model
 I made a collection of CNN architectures and trained the model. Then I evaluated the performance of all the models and chose the one with the best accuracy. I got a training accuracy of about 97%. I got roughly same accuracy for all the trained model but I realized that the model in which implemented regularization performed better on the test set
-The architecture of the best model was:
 
-
-##
-   ![screenshot 247](https://user-images.githubusercontent.com/24778913/41226545-6982ca30-6d8f-11e8-88d2-b771b3647e54.png)
-   ##
    
 ## Interfacing with the Arduino
 The next problem was how can I tell the blind people in which direction to move .
@@ -71,19 +66,8 @@ It took me about 30 minutes to train each network.<br>
 2) 4gb ram<br>
 3) nvidia 930m graphics card
 
-## Running the complete system
-To run the complete system 
-<br>1)Just clone the entire repo
-<br>2)Upload Arduino_blind.ino to your arduino which is connected with your two servos
-<br>3)Download the pretrained model and paste it in the deepway-master directory
-<br>4)Change the COM port name in blind_runner.py
-<br>5)run blind_runner.py(make sure to connect the arduino before running)
-
 ## Liked it
 Tell me if you liked it by giving a star. Also check out my other repositories, I always make cool stuff. I even have a youtube channel "reactor science" where I post all my work.
-## Have Questions ??
-You can contact me on my facebook page <a href="https://www.facebook.com/reactorscience/">"reactor science"</a>
-
 
 
 
