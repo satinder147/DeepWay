@@ -65,7 +65,7 @@ It took me about 30 minutes to train each network.<br>
 1) intel core i3<br>
 2) 4gb ram<br>
 3) nvidia 930m graphics card
-##Run the complete thing
+#Run the complete thing
 1)Upload the arduino file on the arduino<br>
 2)Change the com number and camera number in the blind runner.py<br>
 3)run blind_runner.py<br>
