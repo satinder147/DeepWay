@@ -1,7 +1,7 @@
 # DeepWay
 This project is an aid to the blind. Till date there has been no technological advancement in the way the blind navigate. So I have used deep learning particularly convolutional neural networks so that they can navigate through the streets. Watch the <a href="https://www.youtube.com/watch?v=qkmU8mN0LwE&feature=youtu.be"> video </a>
 
-# I HAVE DECIDED TO OPEN SOURCE THE CODE SO THAT WE CAN ALL WORK TOGETHER TO HELP THE BLIND PEOPLE AROUND US. THANK YOU
+# I HAVE DECIDED TO OPEN SOURCE THE CODE SO THAT WE CAN ALL WORK TOGETHER TO HELP THE BLIND PEOPLE AROUND US. HOPE WE CAN ACHIEVE THIS SOON. YOUR IDEAS ARE WELCOMED. THANK YOU
 # My Approach 
 ## Collecting Training Data
 My project is an implementation of CNN's, and we all know that they require a large amount of training data. So the first obstruction in my way was a correclty labeled dataset of images. So I went around my college and recorded a lot of videos(of all types of roads and also offroads).Then I wrote a basic python script to  save images from the video(I saved 1 image out of every 5 frames, because the consecutive frame are almost identical). I collected almost 10000 such images almost 3300 for each class(i.e. left right and center). 
