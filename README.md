@@ -65,7 +65,11 @@ It took me about 30 minutes to train each network.<br>
 1) intel core i3<br>
 2) 4gb ram<br>
 3) nvidia 930m graphics card
-
+##Run the complete thing
+1)Upload the arduino file on the arduino<br>
+2)Change the com number and camera number in the blind runner.py<br>
+3)run blind_runner.py<br>
+4)Enjoy<br>
 ## Liked it
 Tell me if you liked it by giving a star. Also check out my other repositories, I always make cool stuff. I even have a youtube channel "reactor science" where I post all my work.
 
