@@ -18,7 +18,7 @@ model.summary()
 ld = load(64, 64, 3, [['D:/blind project 2/left'], ['D:/blind project 2/right'], ['D:/blind project 2/center']])
 
 data, labels = ld.imgload()
-print(data)
+# print(data)
 c = list(zip(data, labels))
 random.shuffle(c)
 data[:], labels[:] = zip(*c)
