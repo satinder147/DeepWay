@@ -27,8 +27,10 @@ labels = np.array(labels)
 trainX, testX, trainY, testY = train_test_split(data, labels, test_size=0.1, random_state=42)
 trainY = to_categorical(trainY, num_classes=3)
 testY = to_categorical(testY, num_classes=3)
-aug = ImageDataGenerator(rotation_range=30, width_shift_range=0.1, height_shift_range=0.1, shear_range=0.2, zoom_range=0.2, fill_mode="nearest")
+aug = ImageDataGenerator(rotation_range=30, width_shift_range=0.1, height_shift_range=0.1, shear_range=0.2,
+                         zoom_range=0.2, fill_mode="nearest")
 opt = Adam(lr=learning_rate, decay=learning_rate/epochs)
 model.compile(loss="categorical_crossentropy", optimizer=opt, metrics=["accuracy"])
-h = model.fit_generator(aug.flow(trainX, trainY, batch_size=bs), validation_data=(testX, testY), steps_per_epoch=len(trainX)//bs, epochs=epochs, verbose=1)
+h = model.fit_generator(aug.flow(trainX, trainY, batch_size=bs), validation_data=(testX, testY),
+                        steps_per_epoch=len(trainX)//bs, epochs=epochs, verbose=1)
 model.save("blind_with_regularization.model")

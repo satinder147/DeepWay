@@ -24,7 +24,7 @@ class load:
                 # print(file+" "+str(i))
                 img = cv2.imread(path+'/'+file, -1)
                 
-                img = cv2.resize(img, (self.width,self.height))
+                img = cv2.resize(img, (self.width, self.height))
                 img = img_to_array(img)
                 self.data.append(img)
                 self.labels.append(i)
