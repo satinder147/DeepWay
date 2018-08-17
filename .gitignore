@@ -11,6 +11,9 @@ __pycache__/
 .idea/*
 Deepway/*
 Deepway/
+Deepway/bin/
+Deepway/include/
+Deepway/lib/
 
 # Distribution / packaging
 .Python
