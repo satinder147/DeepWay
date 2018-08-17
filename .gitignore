@@ -9,11 +9,11 @@ __pycache__/
 # IntelliJ extensions
 .idea/
 .idea/*
-Deepway/*
-Deepway/
-Deepway/bin/
-Deepway/include/
-Deepway/lib/
+/Deepway/*
+/Deepway/
+/Deepway/bin/
+/Deepway/include/
+/Deepway/lib/
 
 # Distribution / packaging
 .Python
