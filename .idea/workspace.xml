@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99a6eb38-cdb0-41df-82a1-fd3e548ad171" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/load_images.py" beforeDir="false" afterPath="$PROJECT_DIR$/load_images.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model_trainer.py" beforeDir="false" afterPath="$PROJECT_DIR$/model_trainer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements_cpu.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements_cpu.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stop.py" beforeDir="false" afterPath="$PROJECT_DIR$/stop.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video2image(data Generator).py" beforeDir="false" afterPath="$PROJECT_DIR$/video2image(data Generator).py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/voice.py" beforeDir="false" afterPath="$PROJECT_DIR$/voice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,11 +13,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="load_images.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="load_images.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/load_images.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+            <state relative-caret-position="120">
+              <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="6" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -61,6 +68,13 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Model</find>
+      <find>model_arch</find>
+      <find>.idea</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -73,12 +87,13 @@
         <option value="$PROJECT_DIR$/video2image(data Generator).py" />
         <option value="$PROJECT_DIR$/voice.py" />
         <option value="$PROJECT_DIR$/requirements_cpu.txt" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-2678" />
-    <option name="y" value="-779" />
+    <option name="x" value="54" />
+    <option name="y" value="-11" />
     <option name="width" value="1313" />
     <option name="height" value="780" />
   </component>
@@ -141,19 +156,20 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2678" y="-779" width="1313" height="780" extended-state="6" />
+    <frame x="54" y="-11" width="1313" height="780" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32917318" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32917318" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -226,8 +242,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/load_images.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+        <state relative-caret-position="120">
+          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="6" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
         </state>
       </provider>
     </entry>
