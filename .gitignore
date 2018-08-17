@@ -10,6 +10,7 @@ __pycache__/
 .idea/
 .idea/*
 Deepway/*
+Deepway/
 
 # Distribution / packaging
 .Python
