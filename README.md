@@ -75,6 +75,10 @@ It took me about 30 minutes to train each network.<br>
 ## Liked it
 Tell me if you liked it by giving a star. Also check out my other repositories, I always make cool stuff. I even have a youtube channel "reactor science" where I post all my work.
 
+## Read About It At
+1)<a href="https://www.geospatialworld.net/blogs/now-visually-impaired-can-navigate-easily-with-deepway/">GEOSPATIAL MAGAZINE BLOG</a><br>
+2)<a href="https://blog.hackster.io/navigation-glasses-gently-poke-you-in-the-right-direction-21acc16c8b14">HACKSTER>IO</a>
+
 
 
 
