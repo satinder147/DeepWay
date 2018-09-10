@@ -6,6 +6,15 @@ __pycache__/
 # C extensions
 *.so
 
+# IntelliJ extensions
+.idea/
+.idea/*
+/Deepway/*
+/Deepway/
+/Deepway/bin/
+/Deepway/include/
+/Deepway/lib/
+
 # Distribution / packaging
 .Python
 build/

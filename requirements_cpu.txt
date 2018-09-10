@@ -6,5 +6,5 @@ tensorflow
 keras
 opencv-python
 pyttsx3
-time
 datetime
+pygame
