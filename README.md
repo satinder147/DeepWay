@@ -77,8 +77,8 @@ Tell me if you liked it by giving a star. Also check out my other repositories, 
 
 ## Read About It At
 1)<a href="https://www.geospatialworld.net/blogs/now-visually-impaired-can-navigate-easily-with-deepway/">GEOSPATIAL MAGAZINE BLOG</a><br>
-2)<a href="https://blog.hackster.io/navigation-glasses-gently-poke-you-in-the-right-direction-21acc16c8b14">HACKSTER>IO</a>
-
+2)<a href="https://blog.hackster.io/navigation-glasses-gently-poke-you-in-the-right-direction-21acc16c8b14">HACKSTER.IO</a>
+3)<a href="https://anyline.com/news/3-inspiring-ai-projects-we-love/">Anyline blog</a>
 
 
 
